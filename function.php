@@ -57,7 +57,7 @@ function pageHeader($view){
             $sql="select title,meta_keyword,meta_description from menu where view like '%$view%'";
             $tab=mysql_query($sql);
             $row=mysql_fetch_object($tab);
-            $pageTitle = '.:CÔNG TY TNHH IPS ENGINEERING | '.$row->title.':.';
+            $pageTitle = '.:CÔNG TY TNHH INDUSTRIAL | '.$row->title.':.';
             $pageDescription = $row->meta_description;
             $pageKeyword = $row->meta_keyword;
             break;
@@ -639,8 +639,8 @@ $str.='
         </div>
         ';
     $str.='<div class="maps">
-    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3725.1442213109362!2d105.79431651496111!3d20.986855194583306!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3135acc7abd8443d%3A0x6e5bf6f4dec13dd3!2zxJDhu6ljIMSQ4bqhaSBPZmZpY2UgVG93ZXI!5e0!3m2!1sen!2s!4v1453687068536" width="800" height="400" frameborder="0" style="border:0" allowfullscreen></iframe>
-    </div>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1959.5390043661666!2d106.63623477555042!3d10.805337293404387!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3175295a43a365b7%3A0x6a55e72eb521cfa3!2zMzIyIEPhu5luZyBIw7JhLCBwaMaw4budbmcgMTMsIFTDom4gQsOsbmgsIEjhu5MgQ2jDrSBNaW5oLCBWaeG7h3QgTmFt!5e0!3m2!1svi!2s!4v1480921303522" width="800" height="400" frameborder="0" style="border:0" allowfullscreen></iframe>
+     </div>
     ';
     
     
@@ -650,7 +650,7 @@ $str.='
 function gmaps()
 {
     $str='
-    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3919.1174760528056!2d106.64126311487045!3d10.80231366166905!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3175294f90fb880d%3A0x4e86b1f8f3297eca!2zMzIyIEPhu5luZyBIw7JhLCBwaMaw4budbmcgMTMsIFTDom4gQsOsbmgsIEjhu5MgQ2jDrSBNaW5oLCBWaWV0bmFt!5e0!3m2!1sen!2s!4v1453686996991" width="800" height="400" frameborder="0" style="border:0" allowfullscreen></iframe>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1959.5390043661666!2d106.63623477555042!3d10.805337293404387!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3175295a43a365b7%3A0x6a55e72eb521cfa3!2zMzIyIEPhu5luZyBIw7JhLCBwaMaw4budbmcgMTMsIFTDom4gQsOsbmgsIEjhu5MgQ2jDrSBNaW5oLCBWaeG7h3QgTmFt!5e0!3m2!1svi!2s!4v1480921303522" width="800" height="400" frameborder="0" style="border:0" allowfullscreen></iframe>
     ';
     return $str;
 }
@@ -956,7 +956,7 @@ function left_module()
 </div>
 ';
     $str.='
-    <div class="fb-page" data-href="https://www.facebook.com/CongtyIPS" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><div class="fb-xfbml-parse-ignore"><blockquote cite="https://www.facebook.com/CongtyIPVN/"><a href="https://www.facebook.com/CongtyIPVN/">Công ty TNHH Industrial Provision Việt Nam</a></blockquote></div></div>
+    <div class="fb-page" data-href="https://www.facebook.com/CongtyIPS" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><div class="fb-xfbml-parse-ignore"><blockquote cite="https://www.facebook.com/groups/ipvietnam/"><a href="https://www.facebook.com/groups/ipvietnam/">Công ty TNHH Industrial Provision Việt Nam</a></blockquote></div></div>
     ';
     return $str;
 }

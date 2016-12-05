@@ -3,7 +3,7 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />  
 <?php echo pageHeader($view);?>
-<link rel="icon" type="image/png" sizes="64x64"  href="/logo.png"/>
+<link rel="icon" type="image/png" sizes="64x64"  href="<?php echo myWeb;?>images/content/logo.png"/>
 <link rel="stylesheet" type="text/css" href="<?php echo myWeb;?>mine.css"/>
 <link rel="stylesheet/less" type="text/css" href="<?php echo myWeb;?>styles.less"/>
 <script src="<?php echo myWeb;?>less.js"></script>
@@ -33,7 +33,7 @@
                     <img src="<?php echo myWeb;?>images/content/logo.png" style="max-height:100px"/>
                 </td>
                 <td align="center">
-                    <span>CÔNG TY TNHH IPS ENGINEERING</span>
+                    <span>CÔNG TY TNHH INDUSTRIAL PROVISION VIỆT NAM.</span>
                               <em style="font-weight:bold;text-shadow:1px 1px #141414">WE ENHANCE INNOVATION</em>
                 </td>
             </tr>
@@ -78,7 +78,7 @@
                 <?=foot_menu()?>
             </div>
             <div style="text-align: center">
-                <span class="company-name">CÔNG TY TNHH IPS ENGINEERING</span>
+                <span class="company-name">CÔNG TY TNHH INDUSTRIAL</span>
             </div>
             <div class="the-left">                
                 <?php echo station();?>
@@ -117,6 +117,5 @@
   js.src = "//connect.facebook.net/vi_VN/sdk.js#xfbml=1&version=v2.6&appId=1526299550957309";
   fjs.parentNode.insertBefore(js, fjs);
 }(document, 'script', 'facebook-jssdk'));</script>
-<script type='text/javascript'>window._sbzq||function(e){e._sbzq=[];var t=e._sbzq;t.push(["_setAccount",39883]);var n=e.location.protocol=="https:"?"https:":"http:";var r=document.createElement("script");r.type="text/javascript";r.async=true;r.src=n+"//static.subiz.com/public/js/loader.js";var i=document.getElementsByTagName("script")[0];i.parentNode.insertBefore(r,i)}(window);</script>
 </body>
 </html>
